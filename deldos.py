@@ -24,7 +24,6 @@ ascii_art = """
 
          D E L D O S
 
-  We don't judge. We are Linarc.
 """
 print(ascii_art)
 
